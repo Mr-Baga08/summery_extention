@@ -3,7 +3,7 @@ import { StreamingSummarizer } from './lib/streaming-ui.js';
 
 class UniversalSummarizer {
     constructor() {
-        this.apiKey = 'AIzaSyD3Q7ujTBL4VclTa43jetkLc5ZZIiMNFqM'; 
+        this.apiKey = 'ADD'; 
         this.streamer = new StreamingSummarizer(document.getElementById('summary-output'));
         
         this.initialize();
